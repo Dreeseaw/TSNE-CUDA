@@ -11,6 +11,12 @@ After downloading to an enviroment with an NVIDIA GPU, make sure you have nvcc f
 ./tsne data/mnist_test 1000 784
 ```
 
+This will produce an output.txt in your current directory. To produce the final image, run the python script in your directory
+
+```
+python graphs.py
+```
+
 #### Files Included
 ```
 TSNE-CUDA
@@ -20,6 +26,7 @@ TSNE-CUDA
 |-> tsne (executable)
 |-> tsne.cu (source code)
 |-> graph.py (produce graphs using matplotlib and generated output)
+|-> Makefile 
 ```
 
 #### Speed
