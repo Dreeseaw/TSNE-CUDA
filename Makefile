@@ -1,11 +1,8 @@
 CC=nvcc
-CFLAGS=
-NAME=tsne
+OUT=-o tsne
+IN=tsne.cu
 
-.PHONY: all
-all:
-	$(CC) $(CFLAGS) -o $(NAME) $(NAME).cu
-
-.PHONY: clean
-clean:
-	rm -f $(name)
+tsne: tsne.cu
+	$(CC) $(OUT) $(IN)
+clean: tsne
+	rm tsne
