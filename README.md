@@ -23,7 +23,9 @@ TSNE-CUDA
 ```
 
 #### Speed
+
 ![alt text][tests]
 
 This project was done with a partner for CMPSC 450, High Performance Computing
-[tests]: /tests.png "Tests"
+
+[tests]: /tests.png "test pics"
