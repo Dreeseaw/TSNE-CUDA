@@ -18,7 +18,7 @@ After downloading to an enviroment with an NVIDIA GPU, make sure you have nvcc f
 This will produce an output.txt in your current directory. To produce the final image, run the python script in your directory
 
 ```
-python graphs.py
+python graph.py
 ```
 
 #### Files Included
